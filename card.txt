@@ -1,0 +1,45 @@
+# card.py
+
+#ADT Card:
+    """
+    A simple playing card. A Card is characterized by two components 
+    rank: an integer value in the range 1-13, inclusive (Ace-King)
+    suit: a character in 'cdhs' for clubs, diamonds, hearts, and spades
+    """
+
+    """
+    Operations:
+
+    create(rank, suit):
+        Create a new Card
+        pre: rank in range (1-14) and suit in 'cdhs'
+        post: returns a Card of the given rank and suit
+    """
+    """
+    suit(): 
+        Card suit
+        post: returns Card's suit as a single character
+    """
+
+    """
+    rank():
+        Card rank
+        post: returns card's rank as an int
+    """
+
+    """
+    suitName():
+        post: returns one of ('clubs', 'diamonds', 'hearts', 'spades') corresponding to Card's suit
+    """
+
+    """
+    rankName():
+        Card rank name
+        post: Returns one of ('ace', 'two', 'three', ..., 'king') corresponding to Card's rank
+    """
+
+    """
+    toString():
+        String representation of Card
+        post: Returns string naming the Card, e.g 'Ace of Spades'
+    """
